@@ -1,0 +1,22 @@
+.tableFixHead {
+  overflow-y: auto;
+  height: 550px;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  background: #343a40;
+}
+
+td {
+  height: 70px;
+}
+
+.cell {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
